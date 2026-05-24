@@ -24,3 +24,4 @@ def transfer(from_id, to_id, amount):
  src["history"].append(f"Transfer out: -{amount} to {to_id}")
  dst["history"].append(f"Transfer in: +{amount} from {from_id}")
  print(f"Transferred {amount} from {from_id} to {to_id}.")
+ #a comment for transactions
