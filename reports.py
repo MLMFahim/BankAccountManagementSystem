@@ -13,4 +13,5 @@ def snapshot(account_id):
 def audit_report():
  print("\n=== Audit Report ===")
  for acc_id, acc in registry.items():
- print(f"{acc_id}: {acc['owner']} | Balance: {acc['balance']}")
+ print(f"{acc_id}: {acc['owner']} | Balance: {acc['balance']}")
+ #a comment to check
